@@ -10,10 +10,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-
-
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/steller.css">
+
 </head>
 <body>
 
@@ -47,9 +46,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    @* <li class="nav-item"> *@
-                    @*     <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a> *@
-                    @* </li> *@
+                     <li class="nav-item">
+                         <a class="btn btn-primary rounded ml-4" href="#map">Google Map</a> 
+                     </li> 
                 </ul>
             </div>
         </div>
@@ -60,9 +59,9 @@
     <header class="header" id="home">
         <div class="container">
             <div class="infos">
-                <h6 class="subtitle">hello,I'm</h6>
-                <h6 class="title">James Smith</h6>
-                <p>UI/UX Designer</p>
+                <h6 class="subtitle">hello,We're Group 6</h6>
+                <h6 class="title">For Assignment</h6>
+                <p>Programer Team</p>
 
                 <div class="buttons pt-3">
                     <button class="btn btn-primary rounded">HIRE ME</button>
@@ -110,14 +109,15 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">
-                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">Group 6</a></p>
                 </div>
                 <div class="col-sm-6">
                     <div class="socials">
+                        <a class="social-item" href="javascript:void(0)"><i class="fab fa-telegram"></i></a>
                         <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
                         <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
                         <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                        @* <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a> *@
                     </div>
                 </div>
             </div>
@@ -133,5 +133,21 @@
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
     <script src="assets/js/steller.js"></script>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute("href")).scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+            });
+        });
+    </script>
+
+
 </body>
 </html>

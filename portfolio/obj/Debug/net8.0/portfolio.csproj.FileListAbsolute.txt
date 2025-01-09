@@ -32,3 +32,4 @@ E:\Programer\Class\Assignment\portfolio\portfolio\obj\Debug\net8.0\refint\portfo
 E:\Programer\Class\Assignment\portfolio\portfolio\obj\Debug\net8.0\portfolio.pdb
 E:\Programer\Class\Assignment\portfolio\portfolio\obj\Debug\net8.0\portfolio.genruntimeconfig.cache
 E:\Programer\Class\Assignment\portfolio\portfolio\obj\Debug\net8.0\ref\portfolio.dll
+E:\Programer\Class\Assignment\portfolio\portfolio\obj\Debug\net8.0\portfolio.sourcelink.json
