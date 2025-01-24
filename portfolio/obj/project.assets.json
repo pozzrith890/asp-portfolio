@@ -7767,11 +7767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP Assignment\\asp-portfolio\\portfolio\\portfolio.csproj",
+      "projectUniqueName": "D:\\ASP.NET Assignment BBU\\portfolio\\portfolio.csproj",
       "projectName": "portfolio",
-      "projectPath": "D:\\ASP Assignment\\asp-portfolio\\portfolio\\portfolio.csproj",
+      "projectPath": "D:\\ASP.NET Assignment BBU\\portfolio\\portfolio.csproj",
       "packagesPath": "C:\\Users\\Asus9\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP Assignment\\asp-portfolio\\portfolio\\obj\\",
+      "outputPath": "D:\\ASP.NET Assignment BBU\\portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus9\\AppData\\Roaming\\NuGet\\NuGet.Config",

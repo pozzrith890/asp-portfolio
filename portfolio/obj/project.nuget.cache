@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/gQCP5j2RgTuy+hEp89tZe9tMBpzQhYA4aWDg8gK+pfHRpO57bXAp9GP/YnB6wnnpP7B7GVbA/4t1c197gowkA==",
+  "dgSpecHash": "OQZptK3OdHiMa7ZdzzXU3jozg8QHycYdQeDDJwBtD0dVuMflfXK39RXTNkQ9u9mzIvaZgxqomogHSHW8aMi9KQ==",
   "success": true,
-  "projectFilePath": "D:\\ASP Assignment\\asp-portfolio\\portfolio\\portfolio.csproj",
+  "projectFilePath": "D:\\ASP.NET Assignment BBU\\portfolio\\portfolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus9\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Asus9\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
