@@ -7762,19 +7762,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus9\\.nuget\\packages\\": {}
+    "C:\\Users\\rith0\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP.NET Assignment BBU\\portfolio\\portfolio.csproj",
+      "projectUniqueName": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\portfolio.csproj",
       "projectName": "portfolio",
-      "projectPath": "D:\\ASP.NET Assignment BBU\\portfolio\\portfolio.csproj",
-      "packagesPath": "C:\\Users\\Asus9\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP.NET Assignment BBU\\portfolio\\obj\\",
+      "projectPath": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\portfolio.csproj",
+      "packagesPath": "C:\\Users\\rith0\\.nuget\\packages\\",
+      "outputPath": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rith0\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7782,6 +7782,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7794,6 +7795,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -7834,16 +7840,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Could not load file or assembly 'Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)"
-    }
-  ]
+  }
 }
