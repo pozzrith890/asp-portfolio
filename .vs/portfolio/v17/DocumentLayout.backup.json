@@ -3,56 +3,88 @@
   "WorkspaceRootPath": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\members\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\members\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\settings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\settings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\members\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\members\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\members\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\members\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\members\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\members\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\settings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\settings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\settings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\settings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\settings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\settings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|d:\\bbu bmc\\bbu bmc y3 t2\\asp.net\\assingment\\asp-portfolio\\portfolio\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,171 +102,275 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Create.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Views\\Users\\Create.cshtml",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Create.cshtml",
-              "RelativeToolTip": "portfolio\\Views\\Users\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T11:27:34.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Delete.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Views\\Users\\Delete.cshtml",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Delete.cshtml",
-              "RelativeToolTip": "portfolio\\Views\\Users\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T11:27:29.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Details.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Views\\Users\\Details.cshtml",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Details.cshtml",
-              "RelativeToolTip": "portfolio\\Views\\Users\\Details.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Details.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Members\\Details.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Details.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Members\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T11:27:22.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Edit.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Views\\Users\\Edit.cshtml",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Edit.cshtml",
-              "RelativeToolTip": "portfolio\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T11:27:05.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Views\\Users\\Index.cshtml",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "portfolio\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCkAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T11:00:00.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "portfolio\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "portfolio\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:49:23.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "portfolio\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "portfolio\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T09:52:27.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Admin.cshtml",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Shared\\_Admin.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Views\\Shared\\_Admin.cshtml",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Shared\\_Admin.cshtml",
-              "RelativeToolTip": "portfolio\\Views\\Shared\\_Admin.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGwAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T08:19:36.521Z",
+              "WhenOpened": "2025-02-01T06:52:34.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "portfolio\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "portfolio\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Delete.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Members\\Delete.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Delete.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Members\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:52:30.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Create.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Members\\Create.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Create.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Members\\Create.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAGcAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:52:17.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MembersController.cs",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\MembersController.cs",
+              "RelativeDocumentMoniker": "portfolio\\Controllers\\MembersController.cs",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\MembersController.cs",
+              "RelativeToolTip": "portfolio\\Controllers\\MembersController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:50:23.244Z",
+              "WhenOpened": "2025-02-01T06:49:37.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "portfolio\\Models\\Member.cs",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Models\\Member.cs",
+              "RelativeToolTip": "portfolio\\Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T06:44:20.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Create.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Settings\\Create.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Create.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Settings\\Create.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:25:20.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Admin.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Shared\\_Admin.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Shared\\_Admin.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Shared\\_Admin.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Shared\\_Admin.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFUAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T03:53:58.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Index.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Members\\Index.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Index.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Members\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:52:40.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Edit.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Members\\Edit.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Members\\Edit.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Members\\Edit.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:52:37.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Index.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Settings\\Index.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Index.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Settings\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:25:42.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:04:48.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Views\\Admin\\Dashboard.cshtml",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeToolTip": "portfolio\\Views\\Admin\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Settings\\Edit.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Edit.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Settings\\Edit.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T07:47:28.934Z",
+              "WhenOpened": "2025-02-01T06:25:39.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "portfolio\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "portfolio\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T07:52:05.353Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Details.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Settings\\Details.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Details.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Settings\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:25:36.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "portfolio\\Data\\MyDbContext.cs",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "portfolio\\Data\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T03:49:16.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Users\\Create.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:29:14.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Settings\\Delete.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Settings\\Delete.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Settings\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T06:25:34.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "portfolio\\Controllers\\SettingsController.cs",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "portfolio\\Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T06:24:24.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "portfolio\\Models\\Setting.cs",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Models\\Setting.cs",
+              "RelativeToolTip": "portfolio\\Models\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T04:12:04.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "portfolio\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "portfolio\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T04:03:34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Models\\User.cs",
               "RelativeDocumentMoniker": "portfolio\\Models\\User.cs",
               "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Models\\User.cs",
               "RelativeToolTip": "portfolio\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T05:27:31.941Z",
+              "WhenOpened": "2025-02-01T04:03:20.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "portfolio\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "portfolio\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFgBAAAAAAAAAADgv2oBAABeAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "portfolio\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "portfolio\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T07:38:20.221Z",
+              "WhenOpened": "2025-02-01T04:13:49.419Z",
               "EditorCaption": ""
             }
           ]

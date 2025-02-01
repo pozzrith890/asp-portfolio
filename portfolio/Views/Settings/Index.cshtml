@@ -1,0 +1,42 @@
+﻿@model IEnumerable<portfolio.Models.Setting>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Admin";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.keys)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.value)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.keys)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.value)
+            </td>
+            <td>
+                <a asp-action="Edit" class="btn btn-sm btn-primary" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" class="btn btn-sm btn-secondary" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" class="btn btn-sm btn-danger" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
