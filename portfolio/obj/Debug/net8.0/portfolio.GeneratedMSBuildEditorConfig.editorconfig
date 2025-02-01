@@ -17,31 +17,32 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = portfolio
 build_property.RootNamespace = portfolio
-build_property.ProjectDir = D:\BBU BMC\BBU BMC Y3 T2\ASP.net\Assingment\asp-portfolio\portfolio\
+build_property.ProjectDir = D:\3year2seccion\2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)\other project\asp-portfolio\portfolio\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\BBU BMC\BBU BMC Y3 T2\ASP.net\Assingment\asp-portfolio\portfolio
+build_property.MSBuildProjectDirectory = D:\3year2seccion\2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)\other project\asp-portfolio\portfolio
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Account/Login.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Admin/Dashboard.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Home/Index.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Home/Privacy.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Members/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -83,45 +84,48 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Shared/Error.cshtml]
+=======
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Shared/Error.cshtml]
+>>>>>>> 6886a473ba86aeeff3d398ab77b1a941049c0245
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Shared/_Admin.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Shared/_Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Users/Create.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Users/Delete.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Users/Details.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Users/Edit.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Users/Index.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/_ViewImports.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/_ViewStart.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BBU BMC/BBU BMC Y3 T2/ASP.net/Assingment/asp-portfolio/portfolio/Views/Shared/_Layout.cshtml]
+[D:/3year2seccion/2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)/other project/asp-portfolio/portfolio/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-38byf1m3vo

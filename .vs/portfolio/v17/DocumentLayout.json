@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\",
   "Documents": [
     {
@@ -87,10 +88,15 @@
       "RelativeMoniker": "D:0:0:{86E676A4-EDF6-4ED6-ADA4-3A18B940D87D}|portfolio\\portfolio.csproj|solutionrelative:portfolio\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "D:\\3year2seccion\\2_ASP.NET_and_SQLServer(Mr.Soeurng_Lim)\\other project\\asp-portfolio\\",
+  "Documents": [],
+>>>>>>> 6886a473ba86aeeff3d398ab77b1a941049c0245
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -376,6 +382,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> 6886a473ba86aeeff3d398ab77b1a941049c0245
     }
   ]
 }
