@@ -124,6 +124,43 @@ namespace portfolio.Controllers
             {
                 try
                 {
+
+                    if (member.cv_file == null)
+                    {
+                        ModelState.AddModelError("cv_file", "Please upload a file.");
+                        return View(member);
+                    }
+
+                    if (member.cv_file.ContentType != "application/pdf")
+                    {
+                        ModelState.AddModelError("cv_file", "Only PDF files are allowed.");
+                        return View(member); // Return the view if validation fails
+                    }
+
+                    string fileName = DateTime.Now.ToString("yyyyMMddHHmmssfff") + Path.GetExtension(member.cv_file.FileName);
+                    string fileFullPath = Path.Combine(environment.WebRootPath, "members_cv", fileName);
+                    await using (var stream = System.IO.File.Create(fileFullPath))
+                    {
+                        await member.cv_file.CopyToAsync(stream);
+                    }
+
+                    member.cv = fileName;
+
+                    if (member.photo_path == null)
+                    {
+                        ModelState.AddModelError("photo_path", "Please upload a Photo.");
+                        return View(member);
+                    }
+
+                    string photoName = DateTime.Now.ToString("yyyyMMddHHmmssfff") + Path.GetExtension(member.photo_path.FileName);
+                    string photoFullPath = Path.Combine(environment.WebRootPath, "members_photo", photoName);
+                    await using (var stream = System.IO.File.Create(photoFullPath))
+                    {
+                        await member.photo_path.CopyToAsync(stream);
+                    }
+
+                    member.photo = photoName;
+
                     _context.Update(member);
                     await _context.SaveChangesAsync();
                 }

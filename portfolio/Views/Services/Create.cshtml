@@ -1,0 +1,107 @@
+﻿@model portfolio.Models.Service
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_Admin";
+}
+
+<style>
+    .container {
+        /* background: white; */
+        padding: 2rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 400px;
+    }
+
+    h1, h4 {
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+    .text-danger {
+        color: red;
+        font-size: 0.875rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container">
+
+    <h1>Create</h1>
+
+    <h4>Service</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-11">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="subject" class="control-label"></label>
+                    <input asp-for="subject" class="form-control" />
+                    <span asp-validation-for="subject" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="icon" class="control-label"></label>
+                    <input asp-for="icon" class="form-control" />
+                    <span asp-validation-for="icon" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

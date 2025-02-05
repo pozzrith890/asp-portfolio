@@ -12,6 +12,8 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(1); // Auto logout after 30 minutes
+        options.SlidingExpiration = true; // Reset timeout if user is active
         options.LoginPath = "/Account/Login";  // Redirect to Login page if not authenticated
         options.LogoutPath = "/Account/Logout";
     });

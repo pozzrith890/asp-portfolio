@@ -42,13 +42,23 @@
                         </li>
                         
                     </ul>
+
+                    @using System.Security.Claims
+
+                    @{
+                        var userId = User.FindFirstValue("sub");  // Or use the correct claim type
+                    }
+
                     <div class="d-flex justify-content-between">
+                        <div class="mx-4">
+                            <span>Hello , @User.Identity.Name !</span>
+                        </div>
                         <div class="dropdown">
                             <a href="#" role="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="~/no_profile.png" style="width: 30px !important" class="rounded-circle">
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                            @* <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="/Members/Details/@userId">Profile</a></li>
                                 <li><a class="dropdown-item" href="#">Settings</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li>
@@ -59,7 +69,7 @@
                                     </form>
 
                                 </li>
-                            </ul>
+                            </ul> *@
                         </div>
 
                     </div>
@@ -83,7 +93,22 @@
                                 </li>
                                 <li class="nav-item text-left align-center my-1" style="width: 100% !important">
                                     <a href="/Members" class="nav-link align-middle px-2 pb-1 px-0 @(Context.Request.Path == "/Members" ? "active" : "")" style="padding: 0">
-                                        <i class="fs-4 bi bi-gear"></i> <span class="ms-1 d-none d-sm-inline">Member</span>
+                                        <i class="fs-4 bi bi-people"></i> <span class="ms-1 d-none d-sm-inline">Member</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item text-left align-center my-1" style="width: 100% !important">
+                                    <a href="/Services" class="nav-link align-middle px-2 pb-1 px-0 @(Context.Request.Path == "/Services" ? "active" : "")" style="padding: 0">
+                                        <i class="fs-4 bi bi-reception-4"></i> <span class="ms-1 d-none d-sm-inline">Service</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item text-left align-center my-1" style="width: 100% !important">
+                                    <a href="/Skills" class="nav-link align-middle px-2 pb-1 px-0 @(Context.Request.Path == "/Skills" ? "active" : "")" style="padding: 0">
+                                        <i class="fs-4 bi bi-magic"></i> <span class="ms-1 d-none d-sm-inline">Skill</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item text-left align-center my-1" style="width: 100% !important">
+                                    <a href="/Projects" class="nav-link align-middle px-2 pb-1 px-0 @(Context.Request.Path == "/Projects" ? "active" : "")" style="padding: 0">
+                                        <i class="fs-4 bi bi-kanban"></i> <span class="ms-1 d-none d-sm-inline">Project</span>
                                     </a>
                                 </li>
                                 <li class="nav-item text-left align-center my-1" style="width: 100% !important">

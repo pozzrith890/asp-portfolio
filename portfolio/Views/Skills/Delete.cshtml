@@ -1,0 +1,34 @@
+﻿@model portfolio.Models.Skill
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_Admin";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Skill</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.skill_name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.skill_name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.percents)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.percents)%
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Delete" class="btn btn-sm btn-danger" /> |
+        <a asp-action="Index" class="btn btn-sm btn-secondary">Back to List</a>
+    </form>
+</div>

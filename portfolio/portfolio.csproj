@@ -19,6 +19,7 @@
     <Folder Include="Models\Entities\" />
     <Folder Include="wwwroot\members_cv\" />
     <Folder Include="wwwroot\members_photo\" />
+    <Folder Include="wwwroot\project_photo\" />
   </ItemGroup>
 
 </Project>
