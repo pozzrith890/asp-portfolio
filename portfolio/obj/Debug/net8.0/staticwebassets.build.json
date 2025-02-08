@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dz4qQ1uXisz4fef0HR+ysTm9F/zHeRdA06+GOTRZkQw=",
+  "Hash": "EqhIx0RdGtJKZIfkNk6lTcD7Zm+YOtKiEsqyA8DC1mg=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -7805,6 +7805,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\summernote.woff2"
+    },
+    {
+      "Identity": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\comment_photo\\20250208101424413.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "comment_photo/20250208101424413.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\comment_photo\\20250208101424413.png"
     },
     {
       "Identity": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\css\\site.css",

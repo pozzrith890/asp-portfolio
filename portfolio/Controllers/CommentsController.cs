@@ -60,7 +60,7 @@ namespace portfolio.Controllers
             {
                 _context.Add(comment);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index" , "Home");
             }
             return View(comment);
         }

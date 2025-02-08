@@ -26,6 +26,7 @@ namespace portfolio.Data
             modelBuilder.Entity<Service>().ToTable("tbl_services");
             modelBuilder.Entity<Skill>().ToTable("tbl_skills");
             modelBuilder.Entity<Project>().ToTable("tbl_projects");
+            modelBuilder.Entity<Comment>().ToTable("tbl_comments");
 
         }
         public DbSet<portfolio.Models.Skill> Skill { get; set; } = default!;
