@@ -26,6 +26,9 @@ namespace portfolio.Controllers
         }
         public IActionResult Index()
         {
+            ViewData["teamWork"] = _context.Members.Count();
+            ViewData["project"] = _context.Project.Count();
+            ViewData["happyClient"] = _context.Comment.Count();
             return View();
         }
 
