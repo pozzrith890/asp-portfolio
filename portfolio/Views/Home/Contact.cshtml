@@ -1,83 +1,25 @@
 ﻿@model portfolio.Models.Comment
-
 <!-- Contact Section -->
-<section id="contact" class="position-relative section" style="padding-bottom: 350px !important">
-    <div class="container text-center">
-        <h6 class="subtitle">Contact</h6>
-        <h6 class="section-title mb-4">Get In Touch With Me</h6>
-        <p class="mb-5 pb-4">If you have any questions, please contact us and we will reply to you immediately.</p>
-
-        <div class="contact text-left">
-            <div class="form">
-                <h6 class="subtitle">Available 24/7</h6>
-                <h6 class="section-title mb-4">Comment</h6>
-                <form asp-action="Create" enctype="multipart/form-data">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="form-group">
-                        <input asp-for="name" class="form-control" placeholder="Enter Name" />
-                        <span asp-validation-for="name" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <input asp-for="position" class="form-control" placeholder="Enter Position" />
-                        <span asp-validation-for="position" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <textarea asp-for="message" class="form-control" cols="30" rows="3" placeholder="Enter Message"></textarea>
-                        <span asp-validation-for="message" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        Choose Profile : <input type="file" asp-for="img" class="form-control" />
-                        <span asp-validation-for="img" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" value="Submit" class="btn btn-primary btn-block rounded w-lg" />
-                    </div>
-                </form>
-                @* <form asp-action="Create" enctype="multipart/form-data">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                Choose Profile : <input type="file" class="form-control" id="img" aria-describedby="imageHelp" placeholder="Choose Profile" required>
-                </div>
-                <div class="form-group">
-                <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
-                </div>
-                <div class="form-group">
-                <input type="text" class="form-control" id="position" placeholder="Enter Position" required>
-                </div>
-                <div class="form-group">
-                <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-block rounded w-lg">Submit</button>
-                </form> *@
-            </div>
-            <div class="contact-infos">
-                <div class="item">
-                    <i class="ti-location-pin"></i>
-                    <div class="">
-                        <h5>Location</h5>
-                        <p> 12345 Fake ST NoWhere AB Country</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <i class="ti-mobile"></i>
-                    <div>
-                        <h5>Phone Number</h5>
-                        <p>(123) 456-7890</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <i class="ti-email"></i>
-                    <div class="mb-0">
-                        <h5>Email Address</h5>
-                        <p>info@website.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<form asp-action="Create" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <input asp-for="name" class="form-control" placeholder="Enter Name" />
+        <span asp-validation-for="name" class="text-danger"></span>
     </div>
-
-    <div id="map" style="display: flex; justify-content: center; align-items: center;margin:auto !important;height: 35% !important">
-        <iframe style="width: 90% !important;height: 100% !important;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d685.5611426879778!2d102.95902513630777!3d13.589512698364363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311ae70060a2d897%3A0x53eabff087068862!2z4Z6P4Z624Z6T4Z-L4Z6Z4Z-J4Z674Z6EIOGegOGetuGeoOGfkuGenOGfgSAtIFRhbnlvbmcgQ2Fmw6kgLSDosK3li4flkpbllaEgKEJCVSk!5e0!3m2!1sen!2skh!4v1736408154898!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="form-group">
+        <input asp-for="position" class="form-control" placeholder="Enter Position" />
+        <span asp-validation-for="position" class="text-danger"></span>
     </div>
-</section>
+    <div class="form-group">
+        <textarea asp-for="message" class="form-control" cols="30" rows="3" placeholder="Enter Message"></textarea>
+        <span asp-validation-for="message" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        Choose Profile : <input type="file" asp-for="img" class="form-control" />
+        <span asp-validation-for="img" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary btn-block rounded w-lg" />
+    </div>
+</form>
 <!-- End of Contact Section -->

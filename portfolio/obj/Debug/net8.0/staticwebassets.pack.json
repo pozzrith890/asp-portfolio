@@ -1645,6 +1645,10 @@
       "PackagePath": "staticwebassets\\comment_photo\\20250211135135417.png"
     },
     {
+      "Id": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\comment_photo\\20250213151326970.png",
+      "PackagePath": "staticwebassets\\comment_photo\\20250213151326970.png"
+    },
+    {
       "Id": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -2087,6 +2091,10 @@
     {
       "Id": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\project_photo\\20250205151959140.png",
       "PackagePath": "staticwebassets\\project_photo\\20250205151959140.png"
+    },
+    {
+      "Id": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\project_photo\\20250213140150731.png",
+      "PackagePath": "staticwebassets\\project_photo\\20250213140150731.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.portfolio.props",

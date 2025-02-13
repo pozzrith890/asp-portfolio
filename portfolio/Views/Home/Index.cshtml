@@ -5,6 +5,22 @@
     ViewData["Title"] = "Home Page";
 }
 
+<style>
+    /* Remove default Bootstrap fade effect */
+    .modal.fade .modal-dialog {
+        transform: scale(0.8);
+        opacity: 0;
+        transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    }
+
+    /* When modal is shown, apply zoom-in effect */
+    .modal.show .modal-dialog {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+</style>
+
 <!-- About section -->
 <section id="about" class="section mt-3">
     <div class="container mt-5">
@@ -118,31 +134,58 @@
         <h6 class="subtitle">Project</h6>
         <h6 class="section-title mb-4">Check My Wonderful Works</h6>
         <p class="mb-5 pb-4">Here is a project made for Clients who come to receive services, including Web Application, Mobile Application and System For Business.</p>
+        
 
         <div class="row">
-            <div class="col-sm-4">
-                <div class="img-wrapper">
-                    <img src="assets/imgs/folio-1.jpg" alt="">
-                    <div class="overlay">
-                        <div class="overlay-infos">
-                            <h5>Project Title</h5>
-                            <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                            <a href="javascript:void(0)"><i class="ti-link"></i></a>
+            @foreach (var project in Model.Projects)
+            {
+                <!-- Bootstrap Image Modal (Only One Modal for All Projects) -->
+                <div class="modal fade" id="imageModal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <img id="modalImage" src="" class="img-fluid" alt="Zoomed Image">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="img-wrapper">
-                    <img src="assets/imgs/folio-2.jpg" alt="">
-                    <div class="overlay">
-                        <div class="overlay-infos">
-                            <h5>Project Title</h5>
-                            <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                            <a href="javascript:void(0)"><i class="ti-link"></i></a>
+
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="/project_photo/@project.photo" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>@project.title</h5>
+                                <!-- Zoom Icon with Data Attribute -->
+                                <a href="javascript:void(0)" class="zoom-icon" data-img="/project_photo/@project.photo">
+                                    <i class="ti-zoom-in"></i>
+                                </a>
+                                <a href="@(project.url??"#project")" title="@project.url" target="_blank"><i class="ti-link"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
+            }
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    document.querySelectorAll(".zoom-icon").forEach(function (zoomIcon) {
+                        zoomIcon.addEventListener("click", function () {
+                            var imgSrc = this.getAttribute("data-img"); // Get image URL
+                            var modalImage = document.getElementById("modalImage"); // Select the modal image
+
+                            if (modalImage) {
+                                modalImage.src = imgSrc; // Set the image source
+                                var modal = new bootstrap.Modal(document.getElementById("imageModal")); // Initialize modal
+                                modal.show(); // Show modal
+                            }
+                        });
+                    });
+                });
+
+            </script>
+
+            @* <div class="col-sm-4">
                 <div class="img-wrapper">
                     <img src="assets/imgs/folio-3.jpg" alt="">
                     <div class="overlay">
@@ -185,7 +228,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> *@
         </div>
 
     </div>
@@ -199,14 +242,28 @@
         <p class="mb-5 pb-4">Here we will show the feedback of Clients who have received our services.</p>
 
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="carousel-item @(comment == Model.Comments.First() ? "active" : "")">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="/comment_photo/@comment.photo" alt="">
+                                <p>@comment.message</p>
+                                <h1 class="title">@comment.name</h1>
+                                <h1 class="subtitle">@comment.position</h1>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                @* <div class="carousel-item active">
                     <div class="card testmonial-card border">
                         <div class="card-body">
                             <img src="assets/imgs/avatar-1.jpg" alt="">
@@ -235,7 +292,7 @@
                             <h1 class="subtitle">Web Developer</h1>
                         </div>
                     </div>
-                </div>
+                </div> *@
             </div>
         </div>
     </div>
@@ -310,7 +367,23 @@
                         <p class="mb-3">Contact us to discuss the project.</p>
                     </div>
                     <div class="col-sm-3 text-center text-sm-right">
-                        <button class="btn btn-light rounded">Hire Me!</button>
+                        @{
+                            var settingsList = Model.Settings as IEnumerable<dynamic>;
+
+                            var telegramLink = settingsList?.FirstOrDefault(s => s.keys == "telegram")?.value;
+                            var locationLink = settingsList?.FirstOrDefault(s => s.keys == "location")?.value;
+                            var phoneLink = settingsList?.FirstOrDefault(s => s.keys == "phone")?.value;
+                            var emailAddressLink = settingsList?.FirstOrDefault(s => s.keys == "email-address")?.value;
+                            var mapLink = settingsList?.FirstOrDefault(s => s.keys == "map")?.value;
+                        }
+                        @if (!string.IsNullOrEmpty(telegramLink))
+                        {
+                            <a href="@telegramLink" target="_blank" class="btn btn-light rounded">Hire Me!</a>
+                        }
+                        else
+                        {
+                            <a href="#" target="_blank" class="btn btn-light rounded">Hire Me!</a>
+                        }
                     </div>
                 </div>
             </div>
@@ -318,6 +391,66 @@
     </div>
 </section>
 <!-- End od Hire me section. -->
-@{
-    Html.RenderPartial("Contact", new portfolio.Models.Comment());
-}
+
+<section id="contact" class="position-relative section" style="padding-bottom: 350px !important">
+    <div class="container text-center">
+        <h6 class="subtitle">Contact</h6>
+        <h6 class="section-title mb-4">Get In Touch With Me</h6>
+        <p class="mb-5 pb-4">If you have any questions, please contact us and we will reply to you immediately.</p>
+
+        <div class="contact text-left">
+            <div class="form">
+                <h6 class="subtitle">Available 24/7</h6>
+                <h6 class="section-title mb-4">Comment</h6>
+
+                @{
+                    Html.RenderPartial("Contact", new portfolio.Models.Comment());
+                }
+                @* <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                Choose Profile : <input type="file" class="form-control" id="img" aria-describedby="imageHelp" placeholder="Choose Profile" required>
+                </div>
+                <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+                </div>
+                <div class="form-group">
+                <input type="text" class="form-control" id="position" placeholder="Enter Position" required>
+                </div>
+                <div class="form-group">
+                <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block rounded w-lg">Submit</button>
+                </form> *@
+            </div>
+            <div class="contact-infos">
+                <div class="item">
+                    <i class="ti-location-pin"></i>
+                    <div class="">
+                        <h5>Location</h5>
+                        <p> @locationLink </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="ti-mobile"></i>
+                    <div>
+                        <h5>Phone Number</h5>
+                        <p>+855 @phoneLink</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="ti-email"></i>
+                    <div class="mb-0">
+                        <h5>Email Address</h5>
+                        <p>@emailAddressLink</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map" style="display: flex; justify-content: center; align-items: center;margin:auto !important;height: 35% !important">
+        <iframe style="width: 90% !important;height: 100% !important;" src="@mapLink" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+

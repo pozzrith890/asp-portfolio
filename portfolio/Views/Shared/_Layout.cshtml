@@ -64,14 +64,31 @@
                 <p>Programer Team</p>
 
                 <div class="buttons pt-3">
-                    <a href="https://t.me/rithlearncode" target="_blank" class="btn btn-primary rounded">HIRE ME</a>
+                    @* <a href="@Model.Settings.FirstOrDefault(s => s.Key == "telegram").Value" target="_blank" class="btn btn-primary rounded">HIRE ME</a> *@
+                    @{
+                        var settingsList = Model.Settings as IEnumerable<dynamic>;
+
+                        var telegramLink = settingsList?.FirstOrDefault(s => s.keys == "telegram")?.value;
+                        var fbLink = settingsList?.FirstOrDefault(s => s.keys == "facebook")?.value;
+                        var gLink = settingsList?.FirstOrDefault(s => s.keys == "email")?.value;
+                    }
+
+                    @if (!string.IsNullOrEmpty(telegramLink))
+                    {
+                        <a href="@telegramLink" target="_blank" class="btn btn-primary rounded">HIRE ME</a>
+                    }
+                    else
+                    {
+                        <a href="#" target="_blank" class="btn btn-primary rounded">HIRE ME</a>
+                    }
+                    
                     <a class ="btn btn-dark rounded" href="#about">DOWNLOAD CV</a>
                 </div>
-
+                
                 <div class="socials mt-4">
-                    <a href="https://t.me/rithlearncode" class="social-item" target="_blank" href="javascript:void(0)"><i class="fab fa-telegram"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100070541836414&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ritho2072@gmail.com&su=Hire%20Me&body=Hello,%20I%20am%20interested%20in%20hiring%20you!" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                    <a href="@(telegramLink??"#")" class="social-item" target="_blank" href="javascript:void(0)"><i class="fab fa-telegram"></i></a>
+                    <a href="@(fbLink??"#")" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                    <a href="@(gLink??"#")" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
                     @* <a href="https://github.com/" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a> *@
                     @* <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a> *@
                 </div>
@@ -113,9 +130,9 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="socials">
-                        <a href="https://web.telegram.org/" class="social-item" target="_blank"><i class="fab fa-telegram"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100070541836414&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ritho2072@gmail.com&su=Hire%20Me&body=Hello,%20I%20am%20interested%20in%20hiring%20you!" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                        <a href="@(telegramLink??"#")" class="social-item" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="@(fbLink??"#")" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                        <a href="@(gLink??"#")" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
                         @* <a href="https://github.com/" target="_blank" class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a> *@
                         @* <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a> *@
                     </div>

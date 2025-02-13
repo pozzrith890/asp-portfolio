@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xtL3rO/K0iSGZQwqtK+KlV42zIZhsckWz8QYnN/JNig=",
+  "Hash": "eHrOcp345zjQm/dMN5yee0T16N1levTzUYglrvp5Uuk=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -7845,6 +7845,25 @@
       "OriginalItemSpec": "wwwroot\\comment_photo\\20250211135135417.png"
     },
     {
+      "Identity": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\comment_photo\\20250213151326970.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "comment_photo/20250213151326970.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\comment_photo\\20250213151326970.png"
+    },
+    {
       "Identity": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\css\\site.css",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -9952,6 +9971,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\project_photo\\20250205151959140.png"
+    },
+    {
+      "Identity": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\project_photo\\20250213140150731.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BBU BMC\\BBU BMC Y3 T2\\ASP.net\\Assingment\\asp-portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "project_photo/20250213140150731.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\project_photo\\20250213140150731.png"
     }
   ]
 }

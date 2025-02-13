@@ -16,6 +16,9 @@ namespace portfolio.Controllers
         public List<Comment> Comment { get; set; }
         public List<Service> Services { get; set; }
         public List<Skill> Skills { get; set; }
+        public List<Project> Projects { get; set; }
+        public List<Comment> Comments { get; set; }
+        public List<Setting> Settings { get; set; }
     }
 
 
@@ -66,13 +69,21 @@ namespace portfolio.Controllers
             var comment = await _context.Comment.ToListAsync();
             var services = await _context.Services.ToListAsync();
             var skills = await _context.Skill.ToListAsync();
+            var projects = await _context.Project.ToListAsync();
+            var comments = await _context.Comment.ToListAsync();
+            var settings = await _context.Settings.ToListAsync();
             var viewModels = new MyViewModel
             {
                 Members = members,
                 Comment = comment,
                 Services = services,
                 Skills = skills,
+                Projects = projects,
+                Comments = comments,
+                Settings = settings,
             };
+
+            //return Json(viewModels.Comments);
 
             ViewData["teamWork"] = _context.Members.Count();
             ViewData["project"] = _context.Project.Count();
